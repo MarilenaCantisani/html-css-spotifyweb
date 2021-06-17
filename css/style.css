@@ -4,3 +4,57 @@
     margin: 0;
     padding: 0;
 }
+
+/* UTILITY */
+/** Color **/
+.bg-black {
+    background-color: black;
+}
+.bg-grey {
+    background-color: grey;
+}
+.bg-darkblue {
+    background-color: darkblue;
+}
+.bg-transparent-blue {
+    background-color: rgba(0, 0, 225, 0.7)
+}
+
+/* BODY */
+/** Nav section **/
+.col-nav { 
+    height: calc(100vh - 60px);
+    width: 50px;
+    color:cornsilk;
+    overflow: auto;
+}
+
+/** Home-page section **/
+.home-page {
+    width: calc(100vw - 50px);
+    height: calc(100vh - 60px);
+    overflow: auto;
+
+}
+
+
+/** Header section **/
+.top-bar {
+    height: 40px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: calc(100vw - 50px);
+
+}
+
+
+/** Main section **/
+
+
+
+/** Footer section **/
+.footer-col {
+    height: 60px;
+}

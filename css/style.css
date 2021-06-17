@@ -20,21 +20,41 @@
     background-color: rgba(0, 0, 225, 0.7)
 }
 
+/** Box-position **/
+.p-relative {
+    position: relative;
+    z-index: 1;
+}
+
 /* BODY */
 /** Nav section **/
-.col-nav { 
+.col-nav-xs { 
     height: calc(100vh - 60px);
     width: 50px;
     color:cornsilk;
     overflow: auto;
 }
 
+@media screen and (min-width: 576px) {
+    .col-nav-s {
+        max-width: 100px;
+    }
+
+    .home-page {
+        max-width: calc(100vw - 100px);
+    }
+
+    .top-bar {
+        max-width: calc(100vw - 100px);
+    }     
+}
+
+
 /** Home-page section **/
 .home-page {
-    width: calc(100vw - 50px);
     height: calc(100vh - 60px);
+    width: calc(100vw - 50px);
     overflow: auto;
-
 }
 
 
@@ -44,9 +64,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 1;
     width: calc(100vw - 50px);
-
 }
 
 
@@ -56,6 +74,5 @@
 
 /** Footer section **/
 .footer-col {
-    height: 60px;
-    
+    height: 60px;   
 }

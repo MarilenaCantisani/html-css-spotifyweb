@@ -26,22 +26,27 @@
     }
     .icon-text-s {
         display: inline-block;
-        padding: 10px 0; 
+        padding: 10px 0;
+        align-self: center;
     }
 
     a {
         display: block;
         color: grey;
         text-decoration: none;
+        align-self: center;
     }
     a:hover .icon-nav-s{
         border-left: 2px solid lime;
+        
     }
 
     .icon-nav-s {
        height: 30px;
        filter: invert(0.4);
        padding-left: 10px;
+
+       vertical-align: middle;
 
     }
 

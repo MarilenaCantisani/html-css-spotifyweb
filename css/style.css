@@ -35,13 +35,23 @@
 
 
 /** Icons Nav section **/
-.row.icon-nav-bar {
-    height: 100%;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    
+.nav-bar {
+    position: relative;
+}
+
+.icon-top-nav-bar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+} 
+
+.icon-bottom-nav-bar {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
 }
 
 .logo-xs {

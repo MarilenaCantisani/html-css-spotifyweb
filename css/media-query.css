@@ -13,11 +13,7 @@
         max-width: calc(100vw - 180px);
     } 
     
-    .icon-nav-bar {
-        align-content: flex-start;
-        align-self: baseline;
-    }
-
+   
     .logo-s {
         display: block; 
         height: 60px;  

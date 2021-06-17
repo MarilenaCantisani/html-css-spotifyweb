@@ -31,27 +31,38 @@
 .col-nav-xs { 
     height: calc(100vh - 60px);
     width: 50px;
-    color:cornsilk;
     overflow: auto;
 }
 
+/*! Media query S !*/
 @media screen and (min-width: 576px) {
     .col-nav-s {
         max-width: 100px;
     }
 
-    .home-page {
+    .home-page-s {
         max-width: calc(100vw - 100px);
     }
 
-    .top-bar {
+    .top-bar-s {
         max-width: calc(100vw - 100px);
     }     
 }
 
+/** Icons Nav section **/
+.row.icon-nav-bar {
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
 
 /** Home-page section **/
-.home-page {
+.home-page-xs {
     height: calc(100vh - 60px);
     width: calc(100vw - 50px);
     overflow: auto;
@@ -59,7 +70,7 @@
 
 
 /** Header section **/
-.top-bar {
+.top-bar-xs {
     height: 40px;
     position: fixed;
     top: 0;

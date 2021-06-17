@@ -31,13 +31,13 @@
 .col-nav-xs { 
     height: calc(100vh - 60px);
     width: 50px;
-    overflow: auto;
 }
 
 /*! Media query S !*/
 @media screen and (min-width: 576px) {
     .col-nav-s {
         max-width: 100px;
+
     }
 
     .home-page-s {
@@ -46,7 +46,14 @@
 
     .top-bar-s {
         max-width: calc(100vw - 100px);
-    }     
+    } 
+    
+    .logo-s {
+        display: block;    
+    }
+    .icon-text-s {
+        display: inline-block;
+    }
 }
 
 /** Icons Nav section **/
@@ -55,6 +62,26 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo-xs {
+    display: none;
+}
+
+.icon-text-xs {
+    display: none;
+}
+
+.icon-nav-xs, #logo-small {
+    transform: scale(2);
+    padding: 10px 0;
+}
+ #download {
+    transform: scale(4);
+}
+
+#profile {
+    transform: scale(4);
 }
 
 

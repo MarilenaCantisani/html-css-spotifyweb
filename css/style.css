@@ -36,8 +36,47 @@ body {
     width: 50px;
 }
 
+.row-nav-bar {
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
-/** Icons Nav section **/
+/** Top nav **/
+.top-nav {
+    padding-top: 10px;
+}
+
+.row-nav-bar a {
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    
+}
+.row-nav-bar img:not([id=logo-small],[id=profile]) {
+    filter: invert(0.2);
+}
+
+.bottom-nav {
+    flex-grow: 0;
+}
+
+#download {
+    position:relative;
+    left: -2px;
+}
+
+#profile {
+    width: 26px;
+    height: 26px;
+    background-color: #808080;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: contain;
+    padding: 2px;
+}
 
 
 
@@ -48,7 +87,6 @@ body {
 .home-page-xs {
     height: calc(100vh - 60px);
     flex-basis: calc(100% - 60px);
-    /* flex-grow: 1; */
     overflow: scroll;
 }
 
@@ -71,3 +109,5 @@ body {
 .footer-col {
     height: 60px;   
 }
+
+

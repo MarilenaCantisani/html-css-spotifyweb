@@ -23,6 +23,9 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+.no-wrap {
+    flex-wrap: nowrap;
+}
 
 /* COLUMNS */
 /** Columns size 12-col **/

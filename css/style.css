@@ -29,7 +29,7 @@ body {
 }
 
 /* BODY */
-/** Nav section **/
+/** NAV SECTION **/
 .col-nav-xs { 
     height: calc(100vh - 60px);
     width: 50px;
@@ -142,7 +142,7 @@ body {
     margin-right: 8px;
 }
 
-/** Home-page section **/
+/** HOME-PAGE SECTION **/
 .home-page-xs {
     height: calc(100vh - 60px);
     flex-basis: calc(100% - 60px);
@@ -212,7 +212,7 @@ body {
 /** Main section **/
 /** Recently played section **/
 .albums {
-    height: 20vh;
+    height: 24vh;
     margin-top: 20px;
     margin-bottom: 10px;
     padding: 10px;
@@ -249,9 +249,34 @@ body {
 }
 
 
-/** Footer section **/
+/** FOOTER SECTION **/
 .footer-col {
-    height: 60px;   
+    height: 60px; 
+    /* padding: 10px 5px;   */
+}
+.row.row-song {
+    align-content: center;
+    justify-content: space-between;
 }
 
+.song .img-xs {
+    height: 30px;
+    vertical-align: bottom;
+}
 
+.details-song-xs {
+    display: inline-block;
+    align-self: center;
+    
+}
+.details-song-xs h3 {
+
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.details-song-xs p {
+    color: #d2d2d2; 
+    font-size: 10px;
+}

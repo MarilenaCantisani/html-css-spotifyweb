@@ -59,14 +59,19 @@
         display: none;
     }
 }
-
-@media screen and (max-height: 727px) {
+@media screen and (max-height: 730px) {
     .playlist-name {
         height: 250px;
     }
 }
 
-@media screen and (max-height: 726px) {
+@media screen and (max-height: 600px) {
+    .playlist-name {
+        height: 100px;
+    }
+}
+
+@media screen and (max-height: 500px) {
     .row-nav-bar-s .playlist-section-min {
         display: none;
     }

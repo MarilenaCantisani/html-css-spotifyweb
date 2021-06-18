@@ -38,36 +38,6 @@ body {
 
 
 /** Icons Nav section **/
-/* .nav-bar {
-    position: relative;
-}
-
-.icon-top-nav-bar {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-} 
-
-.icon-bottom-nav-bar {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-
-}
-
-.logo-xs {
-    display: none;
-}
-
-.icon-text-xs {
-    display: none;
-}
-
-.icon-nav-xs, #logo-small {
-    min-height: 5px;  
-} */
 
 
 
@@ -77,19 +47,19 @@ body {
 /** Home-page section **/
 .home-page-xs {
     height: calc(100vh - 60px);
-    /* flex-basis: calc(100% - 60px); */
-    flex-grow: 1;
+    flex-basis: calc(100% - 60px);
+    /* flex-grow: 1; */
     overflow: scroll;
 }
 
 
 /** Header section **/
 .top-bar-xs {
+    width: calc(100% - 50px);  
     height: 40px;
     position: fixed;
     top: 0;
     right: 0;
-    width: calc(100vw - 50px);
 }
 
 

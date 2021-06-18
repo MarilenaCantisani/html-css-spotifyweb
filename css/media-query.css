@@ -3,6 +3,13 @@
     .col-nav-s {
         width: 180px;
     }
+    .home-page-s {
+        /* flex-grow: 1; */
+        flex-basis: calc(100% - 180px);
+    }
+    .top-bar-s {
+        width: calc(100% - 180px);
+    }
 
     .logo-s {
         display: block; 

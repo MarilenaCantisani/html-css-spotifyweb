@@ -173,6 +173,7 @@ body {
 }
 
 /** Main section **/
+/** Main nav **/
 .main-column {
     padding-top: 85px;    
 }
@@ -198,10 +199,54 @@ body {
     margin-left: 20px;
     margin-top: 28px;
 }
-.main-section h2 {
+.main-section h2, .main-section  p {
     color: #fff;
+    margin-bottom: 10px;
+}
+.main-section p {
+    font-size: 12px;
+    font-weight: 600;
+    color: #d2d2d2;
 }
 
+/** Main section **/
+/** Recently played section **/
+.albums {
+    height: 20vh;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+  
+}
+.prova1 {
+    background-color: salmon;
+}
+.prova2 {
+    background-color:seagreen;
+}
+.prova3 {
+    background-color:skyblue;
+}
+.prova4 {
+    background-color:thistle;
+}
+.prova5 {
+    background-color:yellowgreen;
+}
+.prova6 {
+    background-color:lime;
+}
+
+/** Created for the user section **/
+.created-for-user {
+    margin: 40px 0;
+}
+
+/** Popular-artists section **/
+.albums.round-albums {
+    border-radius: 50%;
+}
 
 
 /** Footer section **/

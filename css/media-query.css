@@ -1,19 +1,9 @@
 /*! Media query S !*/
 @media screen and (min-width: 576px) {
     .col-nav-s {
-        max-width: 180px;
-
+        width: 180px;
     }
 
-    .home-page-s {
-        max-width: calc(100vw - 180px);
-    }
-
-    .top-bar-s {
-        max-width: calc(100vw - 180px);
-    } 
-    
-   
     .logo-s {
         display: block; 
         height: 60px;  

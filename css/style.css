@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* UTILITY */
 /** Color **/
@@ -35,7 +38,7 @@
 
 
 /** Icons Nav section **/
-.nav-bar {
+/* .nav-bar {
     position: relative;
 }
 
@@ -64,7 +67,7 @@
 
 .icon-nav-xs, #logo-small {
     min-height: 5px;  
-}
+} */
 
 
 
@@ -74,8 +77,9 @@
 /** Home-page section **/
 .home-page-xs {
     height: calc(100vh - 60px);
-    width: calc(100vw - 50px);
-    overflow: auto;
+    /* flex-basis: calc(100% - 60px); */
+    flex-grow: 1;
+    overflow: scroll;
 }
 
 

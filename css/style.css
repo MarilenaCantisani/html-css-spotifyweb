@@ -20,7 +20,7 @@ body {
     background-color: #141922;
 }
 .bg-transparent-blue {
-    background-color: #080b12;
+    background-color: rgba(8, 11, 18, 0.7);
 }
 
 /** Box-position **/
@@ -172,10 +172,35 @@ body {
     cursor: pointer;
 }
 
-
-
-
 /** Main section **/
+.main-column {
+    padding-top: 85px;    
+}
+.main-nav ul {
+    text-align: center;
+}
+.main-nav li {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+.main-nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #d2d2d2;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.main-section {
+    margin-left: 20px;
+    margin-top: 28px;
+}
+.main-section h2 {
+    color: #fff;
+}
 
 
 

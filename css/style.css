@@ -36,7 +36,7 @@ body {
     width: 50px;
 }
 
-.row-nav-bar {
+.row-nav-bar-xs {
     height: 100%;
     flex-direction: column;
     flex-wrap: wrap;
@@ -49,13 +49,13 @@ body {
     padding-top: 10px;
 }
 
-.row-nav-bar a {
+.row-nav-bar-xs a {
     display: inline-block;
     height: 26px;
     width: 26px;
     
 }
-.row-nav-bar img:not([id=logo-small],[id=profile]) {
+.row-nav-bar-xs img:not([id=logo-small],[id=profile]) {
     filter: invert(0.2);
 }
 
@@ -76,6 +76,9 @@ body {
     overflow: hidden;
     object-fit: contain;
     padding: 2px;
+}
+.text-icon-xs {
+    display: none;
 }
 
 

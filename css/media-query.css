@@ -1,13 +1,13 @@
 /*! Media query S !*/
 @media screen and (min-width: 576px) {
     .col-nav-s {
-        width: 180px;
+        width: 200px;
     }
     .home-page-s {
-        flex-basis: calc(100% - 180px);
+        flex-basis: calc(100% - 200px);
     }
     .top-bar-s {
-        width: calc(100% - 180px);
+        width: calc(100% - 200px);
     }
 
     .row-nav-bar-s {
@@ -53,3 +53,34 @@
         display: block;
     }   
 }
+
+@media screen and (max-width: 260px) {
+    #btn-header {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 727px) {
+    .playlist-name {
+        height: 250px;
+    }
+}
+
+@media screen and (max-height: 726px) {
+    .row-nav-bar-s .playlist-section-min {
+        display: none;
+    }
+    .row-nav-bar-s .logo-s {
+        position: relative;
+        left: -12px;
+    }
+}
+
+@media screen and (max-height: 320px) {
+    .bottom-nav  {
+        display: none;
+    }
+}
+
+
+

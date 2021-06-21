@@ -26,13 +26,14 @@ img {
     background-color: rgba(8, 11, 18, 0.7);
 }
 
-/* AFTER EFFECT */
+/* PSEUDO-ELEMENT */
 .top-nav li.active::after {
     content: "";
-    display: block;
+    display: inline-block;
     width: 1px;
-    height: 20px;
+    height: 28px;
     background-color: lime;
+    margin: -10px -90px;
     
 }
 .main-nav li.active::after {
@@ -45,7 +46,6 @@ img {
     line-height: 10px;
 
 }
-
 
 /** Box-position **/
 .p-relative {

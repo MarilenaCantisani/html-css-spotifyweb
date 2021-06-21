@@ -3,16 +3,18 @@
     #btn-header {
         display: none;
     }
+  
 }
 @media screen and (min-width: 250px) {
     #btn-header {
         display: none;
     }
+    
 }
 @media screen and (min-width: 251px) {
     #btn-header {
         display: block;
-    }
+    }    
 }
 
 @media screen and (min-width: 576px) {
@@ -68,6 +70,7 @@
     .row-nav-bar-s .playlist-section.playlist-section-min, hr{
         display: block;
     } 
+   
      
 }
 
@@ -118,8 +121,25 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .song .icons-song-xs i {
+        display: inline-block;
+    }
+    #controls .progress-bar {
+        width: 300px;
+    }
+    .song.row .icons-song-xs {
+        padding-left: 32px;
+    }
+}
 
 
+@media screen and (min-width: 992px) {
+    #controls .progress-bar {
+        width: 400px;
+    }
+
+}
 
 
 

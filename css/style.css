@@ -7,6 +7,9 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+img {
+    max-width: 100%;
+}
 
 /* UTILITY */
 /** Color **/
@@ -196,28 +199,36 @@ body {
 }
 
 .main-section {
-    margin-left: 20px;
+    margin: 0 20px;
     margin-top: 28px;
 }
 .main-section h2, .main-section  p {
     color: #fff;
     margin-bottom: 10px;
+    padding-left: 10px;
 }
 .main-section p {
     font-size: 12px;
     font-weight: 600;
     color: #d2d2d2;
 }
+.albums-details {
+    text-align: center;
+}
+.main-section h3 {
+    color: #fff;
+    font-size: 14px;
+}
+.main-section span {
+    color: #d2d2d2;
+    font-size: 12px;
+    font-weight: 600;
+}
 
 /** Main section **/
 /** Recently played section **/
 .albums {
-    height: 24vh;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 10px;
-    
-  
+    padding: 10px; 
 }
 .prova1 {
     background-color: salmon;
@@ -244,7 +255,7 @@ body {
 }
 
 /** Popular-artists section **/
-.albums.round-albums {
+.albums.round-albums img{
     border-radius: 50%;
 }
 

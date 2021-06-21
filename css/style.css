@@ -263,31 +263,107 @@ img {
 /** FOOTER SECTION **/
 .footer-col {
     height: 60px; 
-    /* padding: 10px 5px;   */
+    padding: 0 10px;
+
 }
-.row.row-song {
-    align-content: center;
+.playing-song.row {
+    height: 60px;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
-.song .img-xs {
-    height: 30px;
-    vertical-align: bottom;
-}
-
-.details-song-xs {
+/** Song section **/
+.playing-song.row .song .song-details-xs {
     display: inline-block;
-    align-self: center;
-    
 }
-.details-song-xs h3 {
-
+.playing-song.row .song .song-details-xs h4 {
     color: #fff;
+    font-size: 10px;
     font-weight: 600;
-    font-size: 12px;
+}
+.playing-song.row .song .song-details-xs span {
+    color: #d2d2d2;
+    font-size: 8px;
+
+}
+.playing-song.row .song .song-details-xs {
+    line-height: 10px;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-right: 20px;
 }
 
-.details-song-xs p {
-    color: #d2d2d2; 
+.playing-song.row .song .img-song-xs {
+    height: 30px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+.song .icons-song-xs{
+    color: #d2d2d2;
+    display: inline-block;
+    vertical-align: middle;
+}
+.song .icons-song-xs i {
+    padding-right: 10px;
+    display: block;
+    padding-bottom: 2px;
+}
+
+/** Playback-control section **/
+.controls i {
+    color: #fff;
+}
+
+/** Progress-bar section **/
+
+.playback-control {
+    position: relative;
+}
+
+.progress-bar {
+    height: 5px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.progress-bar.grey {
+    width: 150px;
+    background-color: #979696;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50% , -30%);
+}
+
+.progress-bar.white {
+    width: 40px;
+    background-color: #fff;
+    left: -40%;
+    top: 70%;
+    transform: translateY(-30%);
+}
+
+.minutes span {
+    color: #fff;
     font-size: 10px;
+    font-weight: 500;
+}
+
+.minutes-listened {
+    position: relative;
+    left: -66px;
+    top: -3px;
+}
+
+.total-minutes {
+    position: relative;
+    left: 104px;
+    top: -3px;
+}
+
+/** Volume-song section **/
+
+.volume-song i {
+    color: #fff;
 }

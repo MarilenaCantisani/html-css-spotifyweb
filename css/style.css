@@ -94,7 +94,7 @@ body {
 }
 
 /** Playlist section **/
-.row-nav-bar-xs .playlist-section, hr{
+.row-nav-bar-xs .playlist-section.playlist-section-min, hr{
     display: none;
 }
 

@@ -1,9 +1,20 @@
 /*! Media query S !*/
-@media screen and (min-width: 260px) {
+@media screen and (min-width: 20px) {
     #btn-header {
         display: none;
     }
 }
+@media screen and (min-width: 250px) {
+    #btn-header {
+        display: none;
+    }
+}
+@media screen and (min-width: 251px) {
+    #btn-header {
+        display: block;
+    }
+}
+
 @media screen and (min-width: 576px) {
     .col-nav-s {
         width: 200px;
@@ -54,9 +65,10 @@
         display: none;
     }
 
-    .row-nav-bar-s .playlist-section, hr{
+    .row-nav-bar-s .playlist-section.playlist-section-min, hr{
         display: block;
-    }   
+    } 
+     
 }
 
 @media screen and (min-height: 250px) {

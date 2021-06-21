@@ -27,9 +27,9 @@
                                 <img id="logo" class="logo-xs logo-s" src="./img/logo.svg" alt="text-logo-spotify">
                             </a>
                         </li>
-                        <li>
-                            <a href="">
-                                <img src="./img/home.svg" alt="home"> 
+                        <li class="active">
+                            <a  href="">
+                                <img  src="./img/home.svg" alt="home"> 
                                 <span class="text-icon-xs text-icon-s">Home</span> 
                             </a>
                         </li>
@@ -50,7 +50,7 @@
                     <!--* Playlist-section *-->
                     <div class="playlist-section playlist-section-min">
                         <h1>playlist</h1>
-                        <button><i class="fas fa-plus"></i>crea playlist</button> 
+                        <button><i class="fas fa-plus"></i><span class="add-playlist">crea playlist</span> </button> 
                         <div class="playlist-name">
                             <div>nome playlist</div>
                             <div>nome playlist</div>
@@ -116,7 +116,7 @@
                 <!--* Main-nav-section *-->
                 <nav class="main-nav">
                     <ul>
-                        <li><a href="">in evidenza</a></li>
+                        <li class="active"><a href="">in evidenza</a></li>
                         <li><a href="">podcast</a></li>
                         <li><a href="">classifiche</a></li>
                         <li><a href="">generi e mood</a></li>
@@ -304,9 +304,11 @@
             <!--* Volume-song section *-->
             <section class="volume-song">
                 <div>
-                    <i class="fas fa-list"></i>
-                    <i class="fas fa-tv"></i>
-                    <i class="fas fa-volume-up"></i>
+                    <div class="icon-volume-song">
+                        <i class="fas fa-list"></i>
+                        <i class="fas fa-tv"></i>
+                        <i class="fas fa-volume-up"></i>
+                    </div>       
                     <div class="volume-bar grey"></div>
                     <div class="volume-bar white"></div>
                     

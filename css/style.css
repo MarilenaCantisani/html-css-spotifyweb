@@ -26,6 +26,27 @@ img {
     background-color: rgba(8, 11, 18, 0.7);
 }
 
+/* AFTER EFFECT */
+.top-nav li.active::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 20px;
+    background-color: lime;
+    
+}
+.main-nav li.active::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 1px;
+    background-color: lime;
+    margin: 1px auto;
+    line-height: 10px;
+
+}
+
+
 /** Box-position **/
 .p-relative {
     position: relative;
@@ -50,6 +71,7 @@ img {
 .top-nav {
     padding-top: 10px;
 }
+
 
 .row-nav-bar-xs a {
     display: inline-block;
@@ -92,8 +114,11 @@ img {
 .bottom-nav hr {
     margin: 5px 0;
     margin-left: 20px;
-    width: 140px;
-    
+    width: 140px;   
+}
+
+.nav-bar a:hover, .playlist-section .add-playlist:hover, .playlist-name div:hover  {
+    color: #fff;
 }
 
 /** Playlist section **/
@@ -170,10 +195,14 @@ img {
     border-radius: 20px;
     padding: 8px 30px;
     position: fixed;
-    right: 5px;
+    right: 10px;
     top: 21px;
     cursor: pointer;
 }
+#btn-header:hover {
+    transform: scale(1.03);
+}
+
 
 /** Main section **/
 /** Main nav **/
@@ -197,6 +226,10 @@ img {
     font-weight: 500;
     font-size: 12px;
 }
+.main-nav a:hover {
+    color: #fff;
+}
+
 
 .main-section {
     margin: 0 20px;
@@ -225,28 +258,24 @@ img {
     font-weight: 600;
 }
 
+.main-section img:hover {
+    cursor: pointer;
+    filter: opacity(0.8);
+}
+
+.main-section img:hover::after {
+    content: "<i class="far fa-play-circle"></i>";
+    color: #fff;
+    font-size: 50px;
+    background-color: yellowgreen;
+   
+
+}
+
 /** Main section **/
 /** Recently played section **/
 .albums {
     padding: 10px; 
-}
-.prova1 {
-    background-color: salmon;
-}
-.prova2 {
-    background-color:seagreen;
-}
-.prova3 {
-    background-color:skyblue;
-}
-.prova4 {
-    background-color:thistle;
-}
-.prova5 {
-    background-color:yellowgreen;
-}
-.prova6 {
-    background-color:lime;
 }
 
 /** Created for the user section **/
@@ -329,7 +358,7 @@ img {
 }
 
 .progress-bar.grey {
-    width: 150px;
+    width: 100px;
     background-color: #979696;
     left: 50%;
     top: 70%;
@@ -358,7 +387,7 @@ img {
 
 .total-minutes {
     position: relative;
-    left: 104px;
+    left: 80px;
     top: -3px;
 }
 
@@ -366,4 +395,27 @@ img {
 
 .volume-song i {
     color: #fff;
+    position: relative;
+}
+.volume-bar {
+    height: 5px;
+    position: absolute;
+    top: 26px;
+    border-radius: 20px;
+}
+.volume-bar.grey {
+    width: 80px;
+    background-color: #979696 ;
+    right: 20px;
+}
+
+.volume-bar.white {
+    width: 20px;
+    background-color: #fff ;
+    right: 100px;
+}
+
+.volume-song .icon-volume-song {
+    position: relative;
+    right: 50px;
 }

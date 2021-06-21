@@ -257,20 +257,20 @@ img {
     font-size: 12px;
     font-weight: 600;
 }
-
+.main-section img:hover::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    color: magenta;
+}
 .main-section img:hover {
     cursor: pointer;
     filter: opacity(0.8);
 }
-
 .main-section img:hover::after {
-    content: "<i class="far fa-play-circle"></i>";
-    color: #fff;
-    font-size: 50px;
-    background-color: yellowgreen;
-   
 
 }
+
 
 /** Main section **/
 /** Recently played section **/

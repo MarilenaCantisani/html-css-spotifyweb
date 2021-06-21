@@ -79,7 +79,6 @@ img {
     border-radius: 50%;
     overflow: hidden;
     object-fit: contain;
-    padding: 2px;
     margin-bottom: 10px;
     margin-top: 5px;
 }
@@ -220,14 +219,16 @@ img {
 }
 .albums-details {
     text-align: center;
+    line-height: 15px;
 }
 .main-section h3 {
     color: #fff;
     font-size: 14px;
+    padding-top: 8px;
 }
 .main-section span {
-    color: #d2d2d2;
-    font-size: 12px;
+    color: #9c9c9c;
+    font-size: 10px;
     font-weight: 600;
 }
 .img-albums {
@@ -260,10 +261,20 @@ img {
 .created-for-user {
     margin: 40px 0;
 }
+.created-for-user h3 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #9c9c9c;
+    text-align:left;
+}
 
 /** Popular-artists section **/
 .albums.round-albums img{
     border-radius: 50%;
+}
+.albums.round-albums h3 {
+    font-size: 12px;
+    color: #c9c9c9;
 }
 
 /** FOOTER SECTION **/

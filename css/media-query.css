@@ -1,4 +1,9 @@
 /*! Media query S !*/
+@media screen and (min-width: 260px) {
+    #btn-header {
+        display: none;
+    }
+}
 @media screen and (min-width: 576px) {
     .col-nav-s {
         width: 200px;
@@ -54,25 +59,16 @@
     }   
 }
 
-@media screen and (max-width: 260px) {
-    #btn-header {
+@media screen and (min-height: 250px) {
+    .bottom-nav  {
         display: none;
     }
 }
-@media screen and (max-height: 730px) {
-    .playlist-name {
-        height: 250px;
+@media screen and (min-height: 350px) {
+    .bottom-nav  {
+        display: block;
     }
-}
-
-@media screen and (max-height: 600px) {
-    .playlist-name {
-        height: 100px;
-    }
-}
-
-@media screen and (max-height: 500px) {
-    .row-nav-bar-s .playlist-section-min {
+    .playlist-section.playlist-section-min {
         display: none;
     }
     .row-nav-bar-s .logo-s {
@@ -80,12 +76,41 @@
         left: -12px;
     }
 }
-
-@media screen and (max-height: 320px) {
-    .bottom-nav  {
+@media screen and (min-height: 450px) {
+    .playlist-section.playlist-section-min {
+        display: block;
+    }
+    .playlist-section.playlist-section-min .playlist-name {
         display: none;
     }
 }
+@media screen and (min-height: 600px) {
+    .playlist-section.playlist-section-min .playlist-name {
+        display: block;
+        height: 150px;
+    }
+}
+@media screen and (min-height: 700px) {
+    .playlist-section.playlist-section-min .playlist-name {
+        height: 200px;
+    }
+}
+@media screen and (min-height: 700px) {
+    .playlist-section.playlist-section-min .playlist-name {
+        height: 200px;
+    }
+}
+@media screen and (min-height: 810px) {
+    .playlist-section.playlist-section-min .playlist-name {
+        height: 350px;
+    }
+}
+
+
+
+
+
+
 
 
 

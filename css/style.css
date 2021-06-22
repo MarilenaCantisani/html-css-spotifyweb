@@ -433,4 +433,7 @@ img {
     right: 50px;
 }
 
+.controls .fa-play-circle:hover {
+    transform: scale(1.2);
+}
 
